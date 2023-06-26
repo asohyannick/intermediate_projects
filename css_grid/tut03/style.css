@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    background: #000;
+    color: #fafafafa;
+    font-size: 2rem;
+
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    column-gap: 10px;
+    row-gap: 50%;
+}
+
+.container > div {
+    border: 1px solid blue;
+}

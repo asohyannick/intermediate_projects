@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-base-bg:#000;
+    --text-base-color:#fafafa;
+    --text-base-font-size:2rem;
+    --text-base-grid-bg: lightblue;
+    --text-base-font-family:'Roboto', san-serif;
+}
+
+body {
+    background: var(--text-base-bg);
+    color: var(--text-base-color);
+    font-size: var(--text-base-font-size);
+    font-family: var(--text-base-font-family);
+}
+
+.container {
+    display:inline-grid;
+    grid-template: 50% 50%  50% 50%  50% /  50% 50%  50% 50%  50%;
+    background: var(--text-base-grid-bg);
+}
+
+.room {
+    border: 1px solid;
+    font-size: 50%;
+    text-align: center;
+}
+
+#living-room {
+    grid-column-start: 1;
+    grid-column-end: 6;
+}

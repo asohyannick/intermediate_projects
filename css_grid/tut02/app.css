@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    background: #000;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fafafafa;
+    font-family: 'Robooto', sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50% 50%;
+    grid-template-rows: 50%;
+    grid-auto-flow: 50%;
+    grid-auto-flow: column;
+}
