@@ -34,4 +34,6 @@ body {
 #living-room {
     grid-column-start: 1;
     grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
